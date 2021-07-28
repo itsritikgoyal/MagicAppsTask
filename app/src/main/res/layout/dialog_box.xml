@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="300sp"
+        android:layout_height="200sp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:background="@color/teal_700">
+        <TextView
+            android:id="@+id/dialogName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Name"
+            android:layout_margin="50sp"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/dialogBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
